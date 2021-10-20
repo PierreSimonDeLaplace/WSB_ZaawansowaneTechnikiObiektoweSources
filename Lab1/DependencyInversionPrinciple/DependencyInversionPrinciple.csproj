@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{236399F0-85D5-497E-A9E2-92D12A21B555}</ProjectGuid>
+    <ProjectGuid>{9172D670-D915-4CFD-BAD8-2586413F2CFE}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>DependencyInversionPrinciple</RootNamespace>

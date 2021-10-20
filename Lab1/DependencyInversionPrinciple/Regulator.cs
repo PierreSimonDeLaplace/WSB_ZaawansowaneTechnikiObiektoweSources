@@ -8,12 +8,12 @@ namespace DependencyInversionPrinciple
 {
     public class Regulator
     {
-		const byte THERMOMETER = 0X86;
-		const byte FURNACE = 0X87;
-		const byte ENGAGE = 1;
-		const byte DISENGAGE = 0;
+		private readonly byte THERMOMETER = 0X86;
+		private readonly byte FURNACE = 0X87;
+		private readonly byte ENGAGE = 1;
+		private readonly byte DISENGAGE = 0;
 
-		void Regulate(double minTemp, double maxTemp)
+		public void Regulate(double minTemp, double maxTemp)
 		{
 			for (; ; )
 			{
@@ -30,11 +30,14 @@ namespace DependencyInversionPrinciple
 			}
 		}
 
-        byte Read(byte register) => 0x00; //returned value not relevant.
-
+		byte Read(byte register)
+		{
+            Console.WriteLine("Sensor reading...");
+			return 0x00; //returned value not relevant.
+		}
         void Write(byte register, byte value)
 		{
-			//...
+            Console.WriteLine("Register value writing...");
 		}
 	}
 }

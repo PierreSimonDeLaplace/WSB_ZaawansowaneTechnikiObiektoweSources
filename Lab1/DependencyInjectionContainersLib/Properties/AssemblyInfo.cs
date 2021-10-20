@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("InterfaceSegregationPrinciple")]
+[assembly: AssemblyTitle("DependencyInjectionContainers")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("InterfaceSegregationPrinciple")]
+[assembly: AssemblyProduct("DependencyInjectionContainers")]
 [assembly: AssemblyCopyright("Copyright ©  2021")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("8c69ba79-f1ab-423e-ae00-eb12c695bdd0")]
+[assembly: Guid("93a191d6-9fea-4bd0-b7e6-3525e3e48809")]
 
 // Version information for an assembly consists of the following four values:
 //
