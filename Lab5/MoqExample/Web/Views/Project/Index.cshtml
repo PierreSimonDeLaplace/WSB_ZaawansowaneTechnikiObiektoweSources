@@ -1,0 +1,14 @@
+@model Web.Models.ProjectModel
+
+@{
+    Layout = "_Layout";
+}
+
+<h1>Project (@Model.Id)</h1>
+<h2>Title: @Model.Name</h2>
+<ul>
+    @foreach(var x in Model.Items)
+    {
+        <li>@x.Id: @x.Title - @x.Description</li>
+    }
+</ul>
